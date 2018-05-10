@@ -2,8 +2,10 @@ const express = require('express')
 
 const track1 = require('../mocks/tracks/1.json')
 const track2 = require('../mocks/tracks/2.json')
+const track3 = require('../mocks/tracks/3.json')
 
-const tracks = [track1, track2]
+
+const tracks = [track1, track2, track3, track2, track3, track2]
 
 const app = express()
 

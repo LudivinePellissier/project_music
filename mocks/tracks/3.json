@@ -1,0 +1,9 @@
+{
+  "id": 3,
+  "title" : "Hey Jude",
+  "artist": "The Beatles",
+  "url": "https://youtu.be/A_MjCqQoLLA",
+  "style": "Rock",
+  "like": [],
+  "createdAt": 1525966843766
+}
