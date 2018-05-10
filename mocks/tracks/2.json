@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "title" : "Jacques In The Box",
+  "artist": "Laurent Garnier",
+  "style": "Electro",
+  "like": ["lulu@gmail.com"],
+  "createdAt": 1525956386984
+}
