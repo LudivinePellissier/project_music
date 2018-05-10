@@ -1,7 +1,11 @@
+import { createNewTrack } from './components/track.js'
+
 fetch('http://localhost:3000/tracks')
   .then(response => response.json())
   .then(tracks => {
     const tracksElement = document.getElementById('tracks')
-    tracksElement.innerHTML = JSON.stringify(tracks)
-    console.log(tracks)
+
+    const trackElement = tracks.map(track => createNewTrack(track)).join('')
+
+    tracksElement.innerHTML = trackElement
   })
