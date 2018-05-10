@@ -1,1 +1,1 @@
-console.log("je suis bien chargé")
+fetch('http://localhost:3000/tracks')

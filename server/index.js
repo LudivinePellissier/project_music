@@ -7,6 +7,12 @@ const tracks = [track1, track2]
 
 const app = express()
 
+app.use((request, response, next) => {
+  response.header('Access-Control-Allow-Origin', '*')
+  response.header('Access-Control-Allow-Headers', 'Origin, X-Requestes-With, Content-Type, Accept')
+  next()
+})
+
 app.get('/', (request, response) => {
   response.send('OK')
 })
