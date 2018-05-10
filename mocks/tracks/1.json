@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "title" : "Parade",
+  "artist": "Rone",
+  "style": "Electro",
+  "like": ["lulu@gmail.com", "youhou@gmail.com"],
+  "createdAt": 1525956228679
+}
